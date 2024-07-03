@@ -3,7 +3,12 @@
 </script>
 
 <template>
-  <main>
- 
-  </main>
+
+<h1>HOLA CHICOS</h1>
+
 </template>
+
+
+<style>
+
+</style>
