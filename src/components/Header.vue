@@ -8,7 +8,7 @@
         <RouterLink to="/" class="nav-link">Home</RouterLink>
         <RouterLink to="/aboutus" class="nav-link">About Us</RouterLink>
         <RouterLink to="/contact" class="nav-link">Contact</RouterLink>    
-        <button to="/search" class="nav-link search">Search</button>
+        <RouterLink to="/search" class="nav-link search">Search</RouterLink>
       </div>
       <div class="nav-bottom">
         <p>InfoCatEmbalses</p>
