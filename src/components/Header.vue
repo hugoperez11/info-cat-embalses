@@ -4,7 +4,7 @@
 <template>
 <header class="header">
   <nav>
-    <RouterLink to="/">Home</RouterLink>
+    <RouterLink  to="/">Home</RouterLink>
     <RouterLink to="/about">About us</RouterLink>
     <RouterLink to="/contact">Contact</RouterLink>
     <RouterLink to="/search">Search</RouterLink>
@@ -12,7 +12,7 @@
 </header>
 </template>
 
-<style scoped>
+<style scoped>    
 
 .header {
   margin-top: 0;
