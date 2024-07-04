@@ -4,19 +4,34 @@
       <img src="../assets/images/iconoPage.png" alt="logo" />
     </div>
     <div class="license">
-      <h4>Copyright © 2024 infoCatEmbalses</h4>
+      <h5>Copyright © 2024 infoCatEmbalses</h5>
     </div>
     <div class="info">
-      <h4>Legal information / Privacy policy</h4>
+      <h5>Legal information / Privacy policy</h5>
     </div>
-    <div class="socialMedia"><</div>
-    <img src="../assets/images/instagram.png" alt="instagram" />
-    <img src="../assets/images/whatsapp" alt="whatsapp" />
-    <img src="../assets/images/share" alt="share" />
+    <div class="socialMedia">
+      <img src="../assets/images/instagram.png" alt="instagram" />
+      <img src="../assets/images/whatsapp.png" alt="whatsapp" />
+      <img src="../assets/images/share.png" alt="share" />
+    </div>
   </div>
 </template>
 
 <style scoped>
 .totalContainer {
+  background-color: #1f3b50;
+  text-align: center;
+  padding: 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+}
+
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  gap: 70px;
+  margin-top: 15px;
 }
 </style>
