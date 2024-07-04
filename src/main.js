@@ -16,7 +16,7 @@ app.use(createPinia());
 app.use(router);
 app.use(PrimeVue);
 
-// app.component("DataTable", DataTable);
-// app.component("Column", Column);
+app.component("DataTable", DataTable);
+app.component("Column", Column);
 
 app.mount("#app");
