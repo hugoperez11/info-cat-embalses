@@ -18,7 +18,7 @@
   margin-top: 0;
   background: #1F3B50;
   font-size: 2rem;
-  height: 400px;
+  height: 200px;
   position: fixed;
   z-index: 1000;
 }
