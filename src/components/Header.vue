@@ -11,7 +11,7 @@
         <RouterLink to="/search" class="nav-link search">Search</RouterLink>
       </div>
       <div class="nav-bottom">
-        <p>InfoCatEmbalses</p>
+        <p>InfoCat Embalses</p>
         <img src="../assets/images/imageLogo.png" alt="Logo">
       </div>
     </nav>
