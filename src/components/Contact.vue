@@ -31,26 +31,26 @@ export default {
     <main class="divContainer">
     
         <form class="container" @submit.prevent="handleSubmit">
-        <label for="firstName">First name</label>
+        <label for="firstName">Nombre</label>
         <input type="text" required v-model="form.firstName" id="firstName">
         
-        <label for="lastName">Last name</label>
+        <label for="lastName">Apellidos</label>
         <input type="text" required v-model="form.lastName" id="lastName">
         
         <label for="email">Email</label>
         <input type="text" required v-model="form.email" id="email">
         
-        <label for="message">Message</label>
-        <textarea v-model="form.message" required id="message" placeholder="Write your message here..."></textarea>
+        <label for="message">Mensaje</label>
+        <textarea v-model="form.message" required id="message" placeholder="Escribe aquí..."></textarea>
         
-        <button type="submit">Submit</button>
+        <button type="submit">Enviar</button>
         </form>
         
         <div v-if="showPopup" class="popup-overlay" @click.self="closePopup">
       <div class="popup">
         <img class="img-popup" src="../assets/images/circle-check-solid.png" alt="circle" /><h2>Confirmation</h2>
-        <p>Message sended successfully!</p>
-        <button @click="closePopup">Close</button>
+        <p>El mensaje se ha enviado correctamente!</p>
+        <button @click="closePopup">Cerrar</button>
       </div>
     </div>
     
