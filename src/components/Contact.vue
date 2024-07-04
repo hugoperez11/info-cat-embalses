@@ -50,9 +50,9 @@ export default {
 display: flex;
 justify-content: center;
 align-items: center;
-height: 89vh;
+height: 90vh;
 width: 100%;
-margin-top: 40px;
+margin-top: 70px;
 background-color: #bde3ff;
 }
 .container {
