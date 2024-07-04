@@ -24,8 +24,6 @@
 <style scoped>
 *{
   font-family: "Josefin Sans", sans-serif;
-  font-style: normal;
-  cursor: url(../assets/images/arrow-pointer-solid.svg), url(cursor.cur), pointer;
 
 }
 .license{
