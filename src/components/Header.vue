@@ -7,7 +7,9 @@
       <div class="nav-links">
         <RouterLink to="/" class="nav-link">Home</RouterLink>
         <RouterLink to="/aboutus" class="nav-link">About Us</RouterLink>
-        <RouterLink to="/contact" class="nav-link">Contact</RouterLink>    
+        <RouterLink to="/contact" class="nav-link">Contact</RouterLink>  
+        <RouterLink to="/embalses" class="nav-link">Embalses</RouterLink>  
+
         <button to="/search" class="nav-link search">Search</button>
       </div>
       <div class="nav-bottom">

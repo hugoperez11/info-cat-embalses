@@ -1,0 +1,218 @@
+[
+    {
+    "id": 2,
+    "dia": "2024-07-02T00:00:00",
+    "estaci": "Embassament de la Llosa del Cavall (Navès)",
+    "nivell_absolut": "775.74",
+    "percentatge_volum_embassat": "27.8",
+    "volum_embassat": "22.27"
+  },
+  {
+    "id": 3,
+    "dia": "2024-07-02T00:00:00",
+    "estaci": "Embassament de Susqueda (Osor)",
+    "nivell_absolut": "315.93",
+    "percentatge_volum_embassat": "36.2",
+    "volum_embassat": "84.39"
+  },
+  {
+    "id": 4,
+    "dia": "2024-07-02T00:00:00",
+    "estaci": "Embassament de Sau (Vilanova de Sau)",
+    "nivell_absolut": "404.22",
+    "percentatge_volum_embassat": "42.2",
+    "volum_embassat": "69.76"
+  },
+  {
+    "id": 5,
+    "dia": "2024-07-02T00:00:00",
+    "estaci": "Embassament de Darnius Boadella (Darnius)",
+    "nivell_absolut": "135.68",
+    "percentatge_volum_embassat": "22.8",
+    "volum_embassat": "13.96"
+  },
+  {
+    "id": 6,
+    "dia": "2024-07-02T00:00:00",
+    "estaci": "Embassament de Riudecanyes",
+    "nivell_absolut": "193.94",
+    "percentatge_volum_embassat": "2.1",
+    "volum_embassat": "0.11"
+  },
+  {
+    "id": 7,
+    "dia": "2024-07-02T00:00:00",
+    "estaci": "Embassament de la Baells (Cercs)",
+    "nivell_absolut": "611.84",
+    "percentatge_volum_embassat": "50.9",
+    "volum_embassat": "55.66"
+  },
+  {
+    "id": 8,
+    "dia": "2024-07-02T00:00:00",
+    "estaci": "Embassament de Foix (Castellet i la Gornal)",
+    "nivell_absolut": "98.44",
+    "percentatge_volum_embassat": "68.4",
+    "volum_embassat": "2.56"
+  },
+  {
+    "id": 9,
+    "dia": "2024-07-02T00:00:00",
+    "estaci": "Embassament de Sant Ponç (Clariana de Cardener)",
+    "nivell_absolut": "514.89",
+    "percentatge_volum_embassat": "33.9",
+    "volum_embassat": "8.27"
+  },
+  {
+    "id": 10,
+    "dia": "2024-07-02T00:00:00",
+    "estaci": "Embassament de Siurana (Cornudella de Montsant)",
+    "nivell_absolut": "451.93",
+    "percentatge_volum_embassat": "2",
+    "volum_embassat": "0.25"
+  },
+  {
+    "id": 11,
+    "dia": "2024-07-01T00:00:00",
+    "estaci": "Embassament de Foix (Castellet i la Gornal)",
+    "nivell_absolut": "98.4",
+    "percentatge_volum_embassat": "67.9",
+    "volum_embassat": "2.54"
+  },
+  {
+    "id": 12,
+    "dia": "2024-07-01T00:00:00",
+    "estaci": "Embassament de Siurana (Cornudella de Montsant)",
+    "nivell_absolut": "451.94",
+    "percentatge_volum_embassat": "2",
+    "volum_embassat": "0.25"
+  },
+  {
+    "id": 13,
+    "dia": "2024-07-01T00:00:00",
+    "estaci": "Embassament de Sau (Vilanova de Sau)",
+    "nivell_absolut": "404.31",
+    "percentatge_volum_embassat": "42.4",
+    "volum_embassat": "70.07"
+  },
+  {
+    "id": 14,
+    "dia": "2024-07-01T00:00:00",
+    "estaci": "Embassament de Riudecanyes",
+    "nivell_absolut": "193.96",
+    "percentatge_volum_embassat": "2.1",
+    "volum_embassat": "0.11"
+  },
+  {
+    "id": 15,
+    "dia": "2024-07-01T00:00:00",
+    "estaci": "Embassament de Susqueda (Osor)",
+    "nivell_absolut": "315.69",
+    "percentatge_volum_embassat": "35.9",
+    "volum_embassat": "83.72"
+  },
+  {
+    "id": 16,
+    "dia": "2024-07-01T00:00:00",
+    "estaci": "Embassament de la Baells (Cercs)",
+    "nivell_absolut": "611.84",
+    "percentatge_volum_embassat": "50.9",
+    "volum_embassat": "55.65"
+  },
+  {
+    "id": 17,
+    "dia": "2024-07-01T00:00:00",
+    "estaci": "Embassament de la Llosa del Cavall (Navès)",
+    "nivell_absolut": "775.73",
+    "percentatge_volum_embassat": "27.8",
+    "volum_embassat": "22.26"
+  },
+  {
+    "id": 18,
+    "dia": "2024-07-01T00:00:00",
+    "estaci": "Embassament de Sant Ponç (Clariana de Cardener)",
+    "nivell_absolut": "514.92",
+    "percentatge_volum_embassat": "34",
+    "volum_embassat": "8.3"
+  },
+  {
+    "id": 19,
+    "dia": "2024-07-01T00:00:00",
+    "estaci": "Embassament de Darnius Boadella (Darnius)",
+    "nivell_absolut": "138.97",
+    "percentatge_volum_embassat": "22.8",
+    "volum_embassat": "13.96"
+  },
+  {
+    "id": 20,
+    "dia": "2024-06-30T00:00:00",
+    "estaci": "Embassament de Sau (Vilanova de Sau)",
+    "nivell_absolut": "404.48",
+    "percentatge_volum_embassat": "42.8",
+    "volum_embassat": "70.66"
+  },
+  {
+    "id": 21,
+    "dia": "2024-06-30T00:00:00",
+    "estaci": "Embassament de Riudecanyes",
+    "nivell_absolut": "193.96",
+    "percentatge_volum_embassat": "2.1",
+    "volum_embassat": "0.11"
+  },
+  {
+    "id": 22,
+    "dia": "2024-06-30T00:00:00",
+    "estaci": "Embassament de Darnius Boadella (Darnius)",
+    "nivell_absolut": "138.96",
+    "percentatge_volum_embassat": "22.8",
+    "volum_embassat": "13.95"
+  },
+  {
+    "id": 23,
+    "dia": "2024-06-30T00:00:00",
+    "estaci": "Embassament de la Llosa del Cavall (Navès)",
+    "nivell_absolut": "775.71",
+    "percentatge_volum_embassat": "27.8",
+    "volum_embassat": "22.24"
+  },
+  {
+    "id": 24,
+    "dia": "2024-06-30T00:00:00",
+    "estaci": "Embassament de Sant Ponç (Clariana de Cardener)",
+    "nivell_absolut": "514.92",
+    "percentatge_volum_embassat": "34",
+    "volum_embassat": "8.3"
+  },
+  {
+    "id": 25,
+    "dia": "2024-06-30T00:00:00",
+    "estaci": "Embassament de la Baells (Cercs)",
+    "nivell_absolut": "611.84",
+    "percentatge_volum_embassat": "50.9",
+    "volum_embassat": "55.66"
+  },
+  {
+    "id": 26,
+    "dia": "2024-06-30T00:00:00",
+    "estaci": "Embassament de Siurana (Cornudella de Montsant)",
+    "nivell_absolut": "451.94",
+    "percentatge_volum_embassat": "2",
+    "volum_embassat": "0.25"
+  },
+  {
+    "id": 27,
+    "dia": "2024-06-30T00:00:00",
+    "estaci": "Embassament de Susqueda (Osor)",
+    "nivell_absolut": "315.45",
+    "percentatge_volum_embassat": "35.6",
+    "volum_embassat": "83.04"
+  },
+  {
+    "id": 28,
+    "dia": "2024-06-30T00:00:00",
+    "estaci": "Embassament de Foix (Castellet i la Gornal)",
+    "nivell_absolut": "98.38",
+    "percentatge_volum_embassat": "67.6",
+    "volum_embassat": "2.53"
+  }
+]
