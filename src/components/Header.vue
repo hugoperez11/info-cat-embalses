@@ -6,9 +6,9 @@
     <nav>
       <div class="nav-links">
         <RouterLink to="/" class="nav-link">Home</RouterLink>
-        <RouterLink to="/aboutus" class="nav-link">AboutUs</RouterLink>
-        <RouterLink to="/contact" class="nav-link">Contact</RouterLink>
-        <RouterLink to="/search" class="nav-link">Search</RouterLink>
+        <RouterLink to="/aboutus" class="nav-link">About Us</RouterLink>
+        <RouterLink to="/contact" class="nav-link">Contact</RouterLink>    
+        <RouterLink to="/search" class="nav-link search">Search</RouterLink>
       </div>
       <div class="nav-bottom">
         <p>InfoCatEmbalses</p>
@@ -19,13 +19,17 @@
 </template>
 
 <style scoped>
+
+*{
+  font-family: "Josefin Sans", sans-serif;
+
+}
 .navbar {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #1F3B50;
-  padding-top:100px;
-  padding-right: 200px;
+  padding-top:30px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -42,17 +46,29 @@
 .nav-links {
   display: flex;
   justify-content: space-between;
-  width: 100%; /* Ocupa todo el ancho disponible */
- /* max-width: 600px;  */
+  gap:30px;
+  width: 100%;
+  /* margin:40px; */
 }
 
 .nav-link {
   color: white;
   text-decoration: none;
-  padding: 10px 100px;
-  font-size: 80px; /* Ajusta el tamaño de fuente de los enlaces */
-}
+  padding: 10px 30px;
+  margin:0 60px 0 60px;
+  font-size: 16px; 
+  border-radius: 3%;
 
+}
+.search{
+  background-color:#BDE3FF; 
+  color:black;
+  display:flex;
+  align-items:end;
+  padding: 10px 15px;
+  border-radius: 5%;
+  
+}
 .nav-bottom {
   margin-top: 10px; /* Ajusta el espacio entre las rutas y el texto/imagen de abajo */
   text-align: center; /* Centra horizontalmente el texto y la imagen */
@@ -69,7 +85,7 @@
 }
 
 .nav-link:hover {
-  background-color: #ddd;
+  background-color: white;
   color: black;
 }
 
