@@ -28,16 +28,15 @@
   background-color: #bde3ff;
 }
 .container {
-   display:flex;
-   flex-direction: column; 
-   width: 600px;
+  display: flex;
+  flex-direction: column;
+  width: 600px;
 }
 
 .h3 {
   color: black;
   margin-bottom: 20px;
-  font-size:30px;
-  
+  font-size: 30px;
 }
 .p {
   color: black;
