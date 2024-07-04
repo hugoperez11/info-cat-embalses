@@ -255,7 +255,6 @@ const customers = ref([
     porcentaje: "70%",
     vol: "140",
   },
-  // Agrega más datos según sea necesario
 ]);
 </script>
 
@@ -291,12 +290,12 @@ const customers = ref([
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: calc(122vh - 150px); /* Ajusta según el tamaño del header y footer */
+  height: calc(122vh - 150px);
   width: 100%;
   padding: 20px;
   box-sizing: border-box;
   background-color: #bde3ff;
-  overflow: auto; /* Permitir desplazamiento si el contenido excede la altura */
+  overflow: auto;
 }
 
 .custom-datatable .p-datatable {
