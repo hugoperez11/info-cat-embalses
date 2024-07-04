@@ -2,120 +2,119 @@
 
 ## Index
 
-- [Descripción](#descripción)
-- [Tecnologías Utilizadas](#tecnologías-utilizadas)
-- [Instalación y Configuración](#instalación-y-configuración)
-- [Estructura del Proyecto](#estructura-del-proyecto)
-- [Rutas](#rutas)
-- [Características Funcionales](#características-funcionales)
-- [Características Técnicas](#características-técnicas)
-- [Contribuir](#contribuir)
-- [Licencia](#licencia)
+- [Description](#description)
+- [Design](#design)
+- [Technologies Used](#technologies-used)
+- [Installation and Configuration](#installation-and-configuration)
+- [Routes](#routes)
+- [Functional Features](#functional-features)
+- [Technical Features](#technical-features)
+- [Project Developers](#project-developers)
 
-## Descripción
 
-La aplicación permite a los usuarios visualizar el estado actual de las cuencas internas de Cataluña, mostrando datos clave como el nivel del agua, el volumen embalsado y el porcentaje de volumen embalsado en comparación con la capacidad total del embalse.
+## Description
 
-## Tecnologías Utilizadas
+The application allows users to visualize the current state of the internal basins of Catalonia, showing key data such as water level, stored volume, and the percentage of stored volume compared to the reservoir's total capacity. Our mission is to:
+- Provide accurate and up-to-date data on the reservoirs.
+- Promote awareness of the importance of water resources.
+- Facilitate data-driven decision-making for governments, businesses, and citizens.
+
+## Design
+
+To see the complete design of the application, you can visit our [Mockup on Figma](https://www.figma.com/design/Syc6WSsElojyub37hdt74n/InfoCatEmbalses?node-id=0-1&t=vcxeJOXpPUZyGfoA-0).
+
+
+## Technologies Used
 
 ### Frontend
-- **Vue.js**: Utilizado para la construcción de la interfaz de usuario.
-- **Vue Router**: Para la gestión de rutas dentro de la aplicación.
+- **Vue.js**: Used for building the user interface.
+- **Vue Router**: For route management within the application.
+- **Primevue**: For styling.
 
 ### Backend
-- **Swagger** :Utilizado para consumir la API
-- **.ASP.NET**: Utilizado para construir la API que proporciona los datos necesarios para la aplicación.
-- **XUnit**:Para realizar pruebas de testing
+- **Swagger**: Used to consume the API.
+- **.ASP.NET**: Used to build the API that provides the necessary data for the application.
 
-  
-- 
-## Instalación y Configuración
 
-### Requisitos Previos
+## Installation and Configuration
 
-- Node.js (versión 14 o superior)
-- .NET Core SDK (versión 3.1 o superior)
+### Prerequisites
 
-### Instalación
+- Node.js (version 14 or higher)
+- Vue.js (version 3)
+- .NET SDK (version 3.1 or higher)
+
+### Installation
 
 #### Frontend
 
-1. Clona el repositorio:
+1. Clone the repository:
     ```bash
     git clone https://github.com/hugoperez11/info-cat-embalses
     cd info-cat-embalses
     ```
 
-2. Instala las dependencias:
+2. Install dependencies:
     ```bash
     npm install
     ```
 
-3. Inicia el servidor de desarrollo:
+3. Start the development server:
     ```bash
     npm run serve
     ```
 
-
-
 #### Backend
 
-1. Clona el repositorio:
+1. Clone the repository:
     ```bash
     git clone https://github.com/alejandria1899/InfoCatEmbalses.git
     cd InfoCatEmbalses
     ```
 
-2. Restaura las dependencias de .Jason:
-    ```bash
-
-    ```
-
-3. Ejecuta la aplicación:
-    ```bash
-    dotnet run
-    ```
-
-La API estará disponible en `http://localhost:5045/swagger`.
-
-## Estructura del Proyecto
+The API will be available at `http://localhost:5045/swagger`.
 
 
-
-## Rutas
+## Routes
 
 ### Frontend
 
-- `/Home`: Página principal que muestra una visión general de los embalses.
-- `/About Us`: Página "About Us" que proporciona información sobre el proyecto y el equipo.
-- - `/Contact`: Página "Contact" que proporciona un formuladrio .
-  - - `/Search`: Página "Search" que proporciona información y datos sobre las cuencas de Cataluña.
+- `/Home`: Main page showing an overview of the reservoirs.
+- `/About Us`: "About Us" page providing information about the project and the team.
+- `/Contact`: "Contact" page providing a contact form.
+- `/Search`: "Search" page providing information and data on the basins of Catalonia.
 
 ### Backend
 
-- `/api/embalses`: Endpoint que proporciona datos sobre los embalses.
+- `/api/embalses`: Endpoint providing data on the reservoirs.
 
-## Características Funcionales
+## Functional Features
 
-- **Visualización del Estado de los Embalses**: Muestra el nivel del agua, el volumen embalsado y el porcentaje de volumen embalsado.
-- **Interfaz Intuitiva**: Interfaz de usuario clara y fácil de usar, construida con Vue.js.
-- **Datos en Tiempo Real**: Información actualizada sobre el estado de los embalses.
+- **Reservoir Status Visualization**: Displays water level, stored volume, and percentage of stored volume.
+- **Intuitive Interface**: Clear and easy-to-use user interface built with Vue.js.
+- **Real-Time Data**: Updated information on the status of the reservoirs.
 
-## Características Técnicas
+## Technical Features
 
-- **Arquitectura Modular**: Separación clara entre frontend y backend para una mejor mantenibilidad.
-- **Vue.js **: Uso de tecnologías modernas para una aplicación robusta y escalable.
-- **API RESTful**: Backend construido con .ASP.NET, siguiendo principios REST para una fácil integración.
+- **Modular Architecture**: Clear separation between frontend and backend for better maintainability.
+- **Vue.js**: Use of modern technologies for a robust and scalable application.
+- **RESTful API**: Backend built with .ASP.NET, following REST principles for easy integration.
 
-## Contribuir
+## Project Developers
 
-Si deseas contribuir, por favor sigue estos pasos:
+### Frontend
+- Sara Terán: Scrum Master
+- Esther P. Sarasua: Developer
+- Conchy Pereira: Developer
+- Belén Sanchez: Developer
 
-1. Haz un fork del proyecto.
-2. Crea una rama para tu función (`git checkout -b feature/nueva-funcion`).
-3. Realiza tus cambios y haz commit (`git commit -m 'Agrega nueva función'`).
-4. Sube tus cambios (`git push origin feature/nueva-funcion`).
-5. Abre un Pull Request.
+### Backend
+- Isamar Romero: Developer
+- Roger Esteve: Product Owner
 
-## Licencia
+
+
+
+
+
 
