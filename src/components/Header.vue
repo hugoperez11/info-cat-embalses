@@ -8,7 +8,7 @@
         <RouterLink to="/" class="nav-link">Home</RouterLink>
         <RouterLink to="/aboutus" class="nav-link">About Us</RouterLink>
         <RouterLink to="/contact" class="nav-link">Contact</RouterLink>    
-        <RouterLink to="/search" class="nav-link search">Search</RouterLink>
+        <button to="/search" class="nav-link search">Search</button>
       </div>
       <div class="nav-bottom">
         <p>InfoCatEmbalses</p>
@@ -22,14 +22,15 @@
 
 *{
   font-family: "Josefin Sans", sans-serif;
-
+  cursor: url(../assets/images/arrow-pointer-solid.svg), url(cursor.cur), pointer;
 }
+
 .navbar {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #1F3B50;
-  padding-top:30px;
+  padding-top:20px;
   position: fixed;
   top: 0;
   width: 100%;
@@ -56,9 +57,18 @@
   text-decoration: none;
   padding: 10px 30px;
   margin:0 60px 0 60px;
-  font-size: 16px; 
+  font-size: 15px; 
   border-radius: 3%;
 
+}
+.nav-link:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.1);
+}
+.nav-link:focus{
+  font-weight: 700;
+  color:#BDE3FF;
 }
 .search{
   background-color:#BDE3FF; 
@@ -67,27 +77,23 @@
   align-items:end;
   padding: 10px 15px;
   border-radius: 5%;
-  
+  border: 0;
+
 }
 .nav-bottom {
-  margin-top: 10px; /* Ajusta el espacio entre las rutas y el texto/imagen de abajo */
   text-align: center; /* Centra horizontalmente el texto y la imagen */
 }
 
 .nav-bottom p {
   color: white;
   margin-bottom: 5px;
-  font-size: 50px; /* Tamaño de fuente del texto */
+  font-size: 45px;
 }
 
 .nav-bottom img {
   max-width: 100px; /* Ajusta el tamaño máximo de la imagen */
 }
 
-.nav-link:hover {
-  background-color: white;
-  color: black;
-}
 
 .content {
   margin-top: 120px;

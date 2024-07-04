@@ -1,13 +1,15 @@
 <script setup>
- import Contact from '../components/Contact.vue'; 
+import Contact from '../components/Contact.vue'; 
 </script>
 
 <template>
-<h1>hola</h1>
-    
-<Contact />
+    <Contact />
 </template>
 
 <style>
+*{
+    cursor: url(../assets/images/arrow-pointer-solid.svg), url(cursor.cur), pointer;
+    font-family: "Josefin Sans", sans-serif;
 
+}
 </style>

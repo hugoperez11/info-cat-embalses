@@ -23,14 +23,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   background-color: #bde3ff;
 }
 .container {
-   display:flex;
-   flex-direction: column; 
-   width: 600px;
+  display:flex;
+  flex-direction: column; 
+  width: 600px;
 }
 
 .h3 {
