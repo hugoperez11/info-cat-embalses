@@ -4,12 +4,11 @@
   <section class="divContainer">
     <img class="image" src="../assets/images/imageLogo.png" alt="logo" />
     <div class="container">
-      <h3 class="h3">About us</h3>
-      <h2>Sobre Nosotros</h2>
+      <h2 class="aboutus">Sobre Nosotros</h2>
 
-      <p>Bienvenido a <strong>InfoCatEmbalses</strong>, la aplicación líder para la gestión y monitoreo de embalses. Nuestro objetivo es
+      <p>Bienvenido a <strong>InfoCat Embalses</strong>, la aplicación líder para la gestión y monitoreo de embalses. Nuestro objetivo es
         proporcionar información precisa y al día, sobre los niveles de agua, calidad, y estado de los embalses
-        en Cataluña. Con <strong>InfoCatEmbalses</strong>, tanto usuarios individuales como instituciones pueden tomar decisiones informadas
+        en Cataluña. Con <strong>InfoCat Embalses</strong>, tanto usuarios individuales como instituciones pueden tomar decisiones informadas
         para el uso sostenible y eficiente de los recursos hídricos.</p>
 
       <h2>Nuestra Misión</h2>
@@ -52,5 +51,8 @@
 .p {
   color: black;
   line-height: 2.5;
+}
+.aboutus{
+  padding-top: 130px;
 }
 </style>

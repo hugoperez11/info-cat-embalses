@@ -4,10 +4,10 @@
       <img src="../assets/images/imageLogo.png" alt="logo" />
     </div>
     <div class="license">
-      <h5>Copyright © 2024 infoCatEmbalses</h5>
+      <h5>Copyright © 2024 infoCat Embalses</h5>
     </div>
     <div class="info">
-      Legal information / <RouterLink to="/" class="info"><b>Privacy policy</b></RouterLink>
+      Información legal / <RouterLink to="/" class="info"><b>Política de privacidad</b></RouterLink>
     </div>
     
     <hr><hr class="hr2">
@@ -24,8 +24,6 @@
 <style scoped>
 *{
   font-family: "Josefin Sans", sans-serif;
-  font-style: normal;
-  cursor: url(../assets/images/arrow-pointer-solid.svg), url(cursor.cur), pointer;
 
 }
 .license{
