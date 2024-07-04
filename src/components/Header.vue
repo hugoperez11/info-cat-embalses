@@ -6,12 +6,12 @@
       <div class="nav-links">
         <RouterLink to="/" class="nav-link">Home</RouterLink>
         <RouterLink to="/aboutus" class="nav-link">About Us</RouterLink>
-        <RouterLink to="/contact" class="nav-link">Contact</RouterLink>
-        <RouterLink to="/search" class="nav-link search">Search</RouterLink>
+        <RouterLink to="/contact" class="nav-link">Contact</RouterLink>    
+        <button to="/search" class="nav-link search">Search</button>
       </div>
       <div class="nav-bottom">
         <p>InfoCatEmbalses</p>
-        <img src="../assets/images/imageLogo.png" alt="Logo" />
+        <img src="../assets/images/imageLogo.png" alt="Logo">
       </div>
     </nav>
   </header>

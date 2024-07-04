@@ -1,50 +1,70 @@
 <script>
 export default {
-    data() {
+  data() {
     return {
-        form: {
+      form: {
         firstName: '',
         lastName: '',
         email: '',
         message: ''
-        }
+      },
+      showPopup: false
     };
+  },
+  methods: {
+    handleSubmit(){
+      // Mostrar el popup de confirmación
+      this.showPopup = true;
+      // Restablecer el formulario después del envío si es necesario
+      this.form.firstName = '';
+      this.form.lastName = '';
+      this.form.email = '';
+      this.form.message = '';
     },
-    methods: {
-    submitForm() {
-        console.log(this.form);
-        this.form.firstName = '';
-        this.form.lastName = '';
-        this.form.email = '';
-        this.form.message = '';
+    closePopup() {
+      this.showPopup = false;
     }
-    }
-};
+  }};
 </script>
 
 <template>
     <main class="divContainer">
     
-        <form class="container" @submit.prevent="submitForm">
+        <form class="container" @submit.prevent="handleSubmit">
         <label for="firstName">First name</label>
-        <input type="text" v-model="form.firstName" id="firstName">
+        <input type="text" required v-model="form.firstName" id="firstName">
         
         <label for="lastName">Last name</label>
-        <input type="text" v-model="form.lastName" id="lastName">
+        <input type="text" required v-model="form.lastName" id="lastName">
         
         <label for="email">Email</label>
-        <input type="text" v-model="form.email" id="email">
+        <input type="text" required v-model="form.email" id="email">
         
         <label for="message">Message</label>
-        <textarea v-model="form.message" id="message" aria-placeholder="Write something..."></textarea>
+        <textarea v-model="form.message" required id="message" placeholder="Write your message here..."></textarea>
         
         <button type="submit">Submit</button>
         </form>
+        
+        <div v-if="showPopup" class="popup-overlay" @click.self="closePopup">
+      <div class="popup">
+        <img class="img-popup" src="../assets/images/circle-check-solid.png" alt="circle" /><h2>Confirmation</h2>
+        <p>Message sended successfully!</p>
+        <button @click="closePopup">Close</button>
+      </div>
+    </div>
     
     </main>
 </template>
 
 <style scoped>
+::placeholder{
+    font-size:10px;
+}
+.img-popup{
+    width: 30px; 
+
+}
 
 .divContainer{
 display: flex;
@@ -85,7 +105,7 @@ button {
     margin-top: 20px;
     padding: 10px;
     font-size: 16px;
-    background-color: #007BFF;
+    background-color: #1F3B50;
     color: white;
     border: none;
     border-radius: 4px;
@@ -93,6 +113,49 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #366f98;
+    color:black;
+}
+/* Estilos para el popup */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.popup h2 {
+  margin-bottom: 10px;
+}
+
+.popup p {
+  margin-bottom: 20px;
+}
+
+.popup button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.popup button:hover {
+  background-color: #0056b3;
 }
 </style>
