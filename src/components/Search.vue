@@ -1,16 +1,13 @@
 <script setup>
 import { ref, onMounted } from "vue";
 
-// Propiedad reactiva para almacenar los datos de la tabla
 const customers = ref([]);
 
-// Función para cargar datos desde el archivo JSON
 const loadData = async () => {
   const response = await fetch("/data.json");
   customers.value = await response.json();
 };
 
-// Cargar datos cuando el componente es montado
 onMounted(loadData);
 </script>
 
