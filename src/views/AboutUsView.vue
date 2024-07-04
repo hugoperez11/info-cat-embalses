@@ -5,6 +5,7 @@
 </template>
 
 <style>
+<<<<<<< HEAD
 /* @media (min-width: 1024px) {
   .about {
     min-height: 100vh;
@@ -12,4 +13,7 @@
     align-items: center;
   }
 } */
+=======
+
+>>>>>>> d18d4e4889fc62d88268e59e90656b39241b254e
 </style>
