@@ -1,14 +1,22 @@
-/* import './assets/main.css' */
+import { createApp } from "vue";
+import App from "./App.vue";
+import PrimeVue from "primevue/config";
+import DataTable from "primevue/datatable";
+import Column from "primevue/column";
+// import "primevue/resources/themes/saga-blue/theme.css";
+// import "primevue/resources/primevue.min.css";
+import "primeicons/primeicons.css";
+import "primeflex/primeflex.css";
+import { createPinia } from "pinia";
+import router from "./router";
 
-import { createApp } from 'vue'
-import { createPinia } from 'pinia'
+const app = createApp(App);
 
-import App from './App.vue'
-import router from './router'
+app.use(createPinia());
+app.use(router);
+app.use(PrimeVue);
 
-const app = createApp(App)
+app.component("DataTable", DataTable);
+app.component("Column", Column);
 
-app.use(createPinia())
-app.use(router)
-
-app.mount('#app')
+app.mount("#app");
