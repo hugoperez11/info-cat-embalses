@@ -1,18 +1,17 @@
 <script setup>
 import { RouterLink, RouterView } from "vue-router";
 import Header from "./components/Header.vue";
-import AboutUs from "./components/AboutUs.vue";
+
 import Footer from "./components/Footer.vue";
 </script>
 
 <template>
   <Header />
-  <AboutUs />
+ 
   <Footer />
   <RouterView />
 </template>
 
-<<<<<<< HEAD
 <style scoped>
 /* header {
   line-height: 1.5;
@@ -76,6 +75,3 @@ nav a:first-of-type {
   }
 } */
 </style>
-=======
-<style scoped></style>
->>>>>>> d18d4e4889fc62d88268e59e90656b39241b254e

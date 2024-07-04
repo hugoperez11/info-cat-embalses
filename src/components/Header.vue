@@ -6,13 +6,13 @@
     <nav>
       <div class="nav-links">
         <RouterLink to="/" class="nav-link">Home</RouterLink>
-        <RouterLink to="/about" class="nav-link">AboutUs</RouterLink>
+        <RouterLink to="/aboutus" class="nav-link">AboutUs</RouterLink>
         <RouterLink to="/contact" class="nav-link">Contact</RouterLink>
         <RouterLink to="/search" class="nav-link">Search</RouterLink>
       </div>
       <div class="nav-bottom">
         <p>InfoCatEmbalses</p>
-        <img src="../assets/images/logo.png" alt="Logo">
+        <img src="../assets/images/imageLogo.png" alt="Logo">
       </div>
     </nav>
   </header>
