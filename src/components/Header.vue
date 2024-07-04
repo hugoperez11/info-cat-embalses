@@ -6,12 +6,14 @@
       <div class="nav-links">
         <RouterLink to="/" class="nav-link">Inicio</RouterLink>
         <RouterLink to="/aboutus" class="nav-link">Sobre nosotros</RouterLink>
-        <RouterLink to="/contact" class="nav-link">Contacto</RouterLink>    
-        <button to="/search" class="nav-link search">Nueva búsqueda</button>
+        <RouterLink to="/contact" class="nav-link">Contacto</RouterLink>
+        <RouterLink to="/search" class="nav-link search"
+          >Nueva búsqueda</RouterLink
+        >
       </div>
       <div class="nav-bottom">
         <p>InfoCatEmbalses</p>
-        <img src="../assets/images/imageLogo.png" alt="Logo">
+        <img src="../assets/images/imageLogo.png" alt="Logo" />
       </div>
     </nav>
   </header>
@@ -20,7 +22,6 @@
 <style scoped>
 * {
   font-family: "Josefin Sans", sans-serif;
-
 }
 
 .navbar {

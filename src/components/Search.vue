@@ -1,262 +1,17 @@
 <script setup>
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 
-// Datos de ejemplo para la tabla
-const customers = ref([
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 1",
-    nivelabsoluto: "150200",
-    porcentaje: "75%",
-    vol: "150",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 2",
-    nivelabsoluto: "130200",
-    porcentaje: "70%",
-    vol: "140",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 1",
-    nivelabsoluto: "150200",
-    porcentaje: "75%",
-    vol: "150",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 2",
-    nivelabsoluto: "130200",
-    porcentaje: "70%",
-    vol: "140",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 1",
-    nivelabsoluto: "150200",
-    porcentaje: "75%",
-    vol: "150",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 2",
-    nivelabsoluto: "130200",
-    porcentaje: "70%",
-    vol: "140",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 1",
-    nivelabsoluto: "150200",
-    porcentaje: "75%",
-    vol: "150",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 2",
-    nivelabsoluto: "130200",
-    porcentaje: "70%",
-    vol: "140",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 1",
-    nivelabsoluto: "150200",
-    porcentaje: "75%",
-    vol: "150",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 2",
-    nivelabsoluto: "130200",
-    porcentaje: "70%",
-    vol: "140",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 1",
-    nivelabsoluto: "150200",
-    porcentaje: "75%",
-    vol: "150",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 2",
-    nivelabsoluto: "130200",
-    porcentaje: "70%",
-    vol: "140",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 1",
-    nivelabsoluto: "150200",
-    porcentaje: "75%",
-    vol: "150",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 2",
-    nivelabsoluto: "130200",
-    porcentaje: "70%",
-    vol: "140",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 1",
-    nivelabsoluto: "150200",
-    porcentaje: "75%",
-    vol: "150",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 2",
-    nivelabsoluto: "130200",
-    porcentaje: "70%",
-    vol: "140",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 1",
-    nivelabsoluto: "150200",
-    porcentaje: "75%",
-    vol: "150",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 2",
-    nivelabsoluto: "130200",
-    porcentaje: "70%",
-    vol: "140",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 1",
-    nivelabsoluto: "150200",
-    porcentaje: "75%",
-    vol: "150",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 2",
-    nivelabsoluto: "130200",
-    porcentaje: "70%",
-    vol: "140",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 1",
-    nivelabsoluto: "150200",
-    porcentaje: "75%",
-    vol: "150",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 2",
-    nivelabsoluto: "130200",
-    porcentaje: "70%",
-    vol: "140",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 1",
-    nivelabsoluto: "150200",
-    porcentaje: "75%",
-    vol: "150",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 2",
-    nivelabsoluto: "130200",
-    porcentaje: "70%",
-    vol: "140",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 1",
-    nivelabsoluto: "150200",
-    porcentaje: "75%",
-    vol: "150",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 2",
-    nivelabsoluto: "130200",
-    porcentaje: "70%",
-    vol: "140",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 1",
-    nivelabsoluto: "150200",
-    porcentaje: "75%",
-    vol: "150",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 2",
-    nivelabsoluto: "130200",
-    porcentaje: "70%",
-    vol: "140",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 1",
-    nivelabsoluto: "150200",
-    porcentaje: "75%",
-    vol: "150",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 2",
-    nivelabsoluto: "130200",
-    porcentaje: "70%",
-    vol: "140",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 1",
-    nivelabsoluto: "150200",
-    porcentaje: "75%",
-    vol: "150",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 2",
-    nivelabsoluto: "130200",
-    porcentaje: "70%",
-    vol: "140",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 1",
-    nivelabsoluto: "150200",
-    porcentaje: "75%",
-    vol: "150",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 2",
-    nivelabsoluto: "130200",
-    porcentaje: "70%",
-    vol: "140",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 1",
-    nivelabsoluto: "150200",
-    porcentaje: "75%",
-    vol: "150",
-  },
-  {
-    dia: "04/07/24",
-    estacion: "Embalse 2",
-    nivelabsoluto: "130200",
-    porcentaje: "70%",
-    vol: "140",
-  },
-  // Agrega más datos según sea necesario
-]);
+// Propiedad reactiva para almacenar los datos de la tabla
+const customers = ref([]);
+
+// Función para cargar datos desde el archivo JSON
+const loadData = async () => {
+  const response = await fetch("/data.json");
+  customers.value = await response.json();
+};
+
+// Cargar datos cuando el componente es montado
+onMounted(loadData);
 </script>
 
 <template>
@@ -264,23 +19,28 @@ const customers = ref([
     <DataTable
       :value="customers"
       paginator
-      :rows="20"
-      :rowsPerPageOptions="[5, 10, 20]"
+      :rows="10"
+      :rowsPerPageOptions="[5, 10]"
       tableStyle="min-width: 50rem"
+      class="custom-datatable"
     >
       <Column field="dia" header="Día" style="width: 20%"></Column>
-      <Column field="estacion" header="Estación" style="width: 20%"></Column>
+      <Column field="estaci" header="Estación" style="width: 20%"></Column>
       <Column
-        field="nivelabsoluto"
+        field="nivell_absolut"
         header="Nivel absoluto"
         style="width: 20%"
       ></Column>
       <Column
-        field="porcentaje"
+        field="percentatge_volum_embassat"
         header="Porcentaje de volumen"
         style="width: 20%"
       ></Column>
-      <Column field="vol" header="Volumen total" style="width: 20%"></Column>
+      <Column
+        field="volum_embassat"
+        header="Volumen total"
+        style="width: 20%"
+      ></Column>
     </DataTable>
   </div>
 </template>
