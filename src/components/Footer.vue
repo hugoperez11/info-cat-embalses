@@ -9,11 +9,15 @@
     <div class="info">
       Legal information / <RouterLink to="/" class="info"><b>Privacy policy</b></RouterLink>
     </div>
+    
+    <hr><hr class="hr2">
     <div class="socialMedia">
       <img class="socialMediaIcon" src="../assets/images/instagram.png" alt="instagram" />
       <img class="socialMediaIcon" src="../assets/images/whatsapp.png" alt="whatsapp" />
       <img class="socialMediaIcon" src="../assets/images/share.png" alt="share" />
     </div>
+    
+    
   </div>
 </template>
 
@@ -21,14 +25,26 @@
 *{
   font-family: "Josefin Sans", sans-serif;
   font-style: normal;
+  cursor: url(../assets/images/arrow-pointer-solid.svg), url(cursor.cur), pointer;
+
 }
 .license{
   font-size:12px;
 
 }
+hr{
+  margin-right: 0%;
+  width: 40%;
+}
+.hr2{
+  margin-left: 0%;
+  width: 40%;
+  margin-right: 50%;
+}
+
 .info{
   color:white;
-  font-size:12px;
+  font-size:10px;
 }
 .totalContainer {
   background-color: #1f3b50;
@@ -46,11 +62,11 @@ h5{
   display: flex;
   justify-content: center;
   gap: 60px;
-  margin-top: 15px;
-  margin-bottom:15px;
+  margin-bottom:10px;
 }
 .socialMediaIcon{
   width:20px;
+  color:white;
 }
 img{
   padding-top:8px;
