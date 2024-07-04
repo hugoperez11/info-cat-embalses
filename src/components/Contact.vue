@@ -48,7 +48,7 @@ export default {
         
         <div v-if="showPopup" class="popup-overlay" @click.self="closePopup">
       <div class="popup">
-        <img class="img-popup" src="../assets/images/circle-check-regular.svg" alt="circle" /><h2>Confirmation</h2>
+        <img class="img-popup" src="../assets/images/circle-check-solid.png" alt="circle" /><h2>Confirmation</h2>
         <p>Message sended successfully!</p>
         <button @click="closePopup">Close</button>
       </div>
@@ -62,8 +62,7 @@ export default {
     font-size:10px;
 }
 .img-popup{
-    width: 30px;
-    color: green;
+    width: 30px; 
 
 }
 
